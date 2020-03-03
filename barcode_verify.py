@@ -26,11 +26,16 @@ if __name __ == "main__":
     img = Image.open('tests/resources/barcode_cloud_day.png')
     pyzbar.decode(img)
 
+
 img = Image.open('tests/resources/qr_frame.png')
 img = Image.open('tests/resources/Capture_barcode.PNG')
 img = Image.open('tests/resources/barcode_cloud_day.png')
 
 img = Image.open('tests/resources/barcode_cloud_day.png')
+img = Image.open('tests/resources/testcapture.jpg')
+img = Image.open('tests/resources/tensecondscapture.jpg')
+
+img = Image.open('tests/resources/fifteensecondscapture.jpg')
 
 barcodes = pyzbar.decode(img)
 
